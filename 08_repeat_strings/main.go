@@ -13,12 +13,12 @@ func main() {
 	fmt.Println(strings.Repeat(s, 3))
 }
 
-func repeatString(s string, n int) string {
-	sl := make([]byte, len(s)*n)
-	c := copy(sl, s)
-	for c < len(sl) {
-		copy(sl[c:], sl[:c])
-		c *= 2
-	}
-	return string(sl)
-}
+// func repeatString(s string, n int) string {
+// 	sl := make([]byte, len(s)*n)
+// 	c := copy(sl, s)
+// 	for c < len(sl) {
+// 		copy(sl[c:], sl[:c])
+// 		c *= 2
+// 	}
+// 	return string(sl)
+// }

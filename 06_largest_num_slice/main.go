@@ -8,15 +8,16 @@ import (
 	"fmt"
 )
 
+var biggest, i int64
+
 func main() {
-	sl := []int{24, 454, 1002, 12, 34, 764, 52}
+	sl := []int64{24, 454, 1002, 12, 34, 764, 52}
 	longestNum := iterateSlice(sl)
 	fmt.Println("The longest number in the slice is:", longestNum)
 
 }
 
-func iterateSlice(s []int) int {
-	var biggest, i int
+func iterateSlice(s []int64) int64 {
 	for _, v := range s {
 		if v > i {
 			i = v
