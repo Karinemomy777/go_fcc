@@ -35,3 +35,6 @@ For this challange, I took advantage of the features in the Go strings package. 
 ### 8. Repeat Strings
 
 This one is still a work in progress :) For now, I'm taking advatage of Go's strings package, but will work on a more elaborate solution later.
+
+### 9. Truncate Strings
+Truncating a string.
